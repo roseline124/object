@@ -1,0 +1,16 @@
+{
+  "name": "object",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/roseline124/object.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
