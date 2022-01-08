@@ -1,5 +1,5 @@
 import { DiscountCondition } from "./DiscountCondition";
-import { Screening } from "./Screening";
+import { Screening } from "../Screening";
 
 export class DiscountConditionSequence implements DiscountCondition {
   constructor(private sequence: number) {}

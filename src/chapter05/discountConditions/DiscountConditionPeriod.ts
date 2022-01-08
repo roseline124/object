@@ -1,5 +1,5 @@
 import { DayOfWeek, DiscountCondition } from "./DiscountCondition";
-import { Screening } from "./Screening";
+import { Screening } from "../Screening";
 
 export class DiscountConditionPeriod implements DiscountCondition {
   constructor(

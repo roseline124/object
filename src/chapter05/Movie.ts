@@ -1,4 +1,4 @@
-import { DiscountCondition } from "./DiscountCondition";
+import { DiscountCondition } from "./discountConditions/DiscountCondition";
 import { Money } from "./Money";
 import { Screening } from "./Screening";
 
