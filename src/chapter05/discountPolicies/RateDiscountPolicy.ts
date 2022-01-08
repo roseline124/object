@@ -1,16 +1,14 @@
 import { Money } from "../Money";
-import { Movie } from "./Movie";
+import { DiscountPolicy } from "./DiscountPolicy";
 import { DiscountCondition } from "../discountConditions/DiscountCondition";
 
-export class RateDiscountMovie extends Movie {
+export class RateDiscountPolicy extends DiscountPolicy {
   constructor(
-    title: string,
-    runningTime: number,
     fee: Money,
     discountConditions: DiscountCondition[],
     private discountRate: number
   ) {
-    super(title, runningTime, fee, discountConditions);
+    super(fee, discountConditions);
   }
 
   protected calculateDiscountAmount(): Money {
