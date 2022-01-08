@@ -19,4 +19,8 @@ export class Movie {
   calculateMovieFee(screening: Screening): Money {
     return this.discountPolicy.calculateMovieFee(screening);
   }
+
+  changeDiscountPolicy(discountPolicy: DiscountPolicy) {
+    this.discountPolicy = discountPolicy;
+  }
 }
